@@ -1,0 +1,125 @@
+.navbar , .container-fluid { 
+    padding: 0% !important;
+    background-color:teal;
+}
+body { 
+    background-image: url(../images/Kiryat\ Yam.jpg\ background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    padding: 0%;
+
+}
+#welcome { 
+    text-align:center ;
+    font-family: 'Fuggles', cursive; 
+    color:black;
+    font-size: 20px;
+    margin-top: 100px;
+    font-weight: 900;
+    font-family: 'Fuggles', cursive;
+     }
+
+#welcome h1 {
+    font-size: 150px;
+    font-family: 'Fuggles', cursive; }
+ #welcome h4 { 
+     font-size: 80px;
+    margin-bottom: 190px;
+    font-family: 'Fuggles', cursive;
+     }   
+     #welcome p { background-color: rgba(255, 255, 255, 0.26);
+     }
+
+
+
+.beanchlist { 
+    display: flex;
+    justify-content: flex-start ;
+    margin-top: 50px;
+    margin-left: 20px; 
+color: whitesmoke;}
+
+.HedrBranch { 
+    margin-left: 40px;} 
+
+    .HedrBranch h1, ul,p { 
+        background-color: rgba(255, 255, 255, 0.26);}     
+
+
+.beanchlist img { 
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;}
+
+ #employees { 
+     display: flex;
+     flex-wrap: wrap;
+     color: whitesmoke;
+     font-family: 'Fuggles', cursive; 
+     margin-left: 30px;
+     text-align: center;
+     
+ }  
+ .article { margin: 25px 150px 75px 150px;} 
+ .article img {
+    width: 200px;
+    height: 200px;
+    margin: 35px;
+    border-radius: 90px;
+    transition: 2s;
+}
+.article img:hover {  width: 550px;
+    opacity: 0.9; 
+    height: 230px;
+    width: 230px;}
+
+#meetTheEmployees h1 { 
+    text-align:center ;
+    font-family: 'Fuggles', cursive; 
+    color: whitesmoke;
+    margin-top: 100px;
+    font-weight: 900;    
+} 
+label ,h3 { color: white; 
+     
+}
+
+input { 
+   width: 120px;
+   height: 30px;
+   transition: width 2s, height 4s;
+   color: white;
+}
+input:focus { width: 150px;
+           height: 20px;
+           border-radius: 5px; }
+
+
+           @keyframes slidein secondtitle {
+               from {
+                 margin-left: 100%;
+                 width: 300%;
+               }
+             
+               to {
+                 margin-left: 0%;
+                 width: 100%;
+               } }
+               .iconsImgs { 
+                display: flex;
+               }
+               .iconsImgs { 
+                   color: whitesmoke;
+                   font-family: 'Fuggles', cursive; 
+
+               }
+           .iconsImgs img { 
+            width: 50px;
+            height: 50px;
+            transition: 0.5s;
+            
+           }
+                       
