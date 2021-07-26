@@ -1,0 +1,69 @@
+<section>
+        <article class="beanchlist">
+            <a href="./HTML/kiryatYam.html">
+            <img src="./images/Kiryat Yam.jpg" alt="Kiryat Yam"></a>
+            <!-- <div class="HedrBranch"> -->
+            <h1>TheEmperor in Kiryat Yam</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                 Rerum sequi facere cum. Praesentium, error harum.</p>
+                 <ul>
+                    <li>TheEmperor in Kiryat Yam</li>
+                    <li>Lachish Road 148, Kiryat Yam</li>
+                    <li>Phone Number:</li>
+                </ul>
+             <!-- </div>  -->
+            <a href="./HTML/Las Vegas.html">
+            <img src="./images/las vegas.jpg" alt="las vegas"> </a>
+            <div class="HedrBranch">
+            <h1>TheEmperor in Las Vegas</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                 Rerum sequi facere cum. Praesentium, error harum.</p>
+                 <ul>
+                    <li>TheEmperor in Las Vegas</li>
+                    <li>las vegas blvd, las vegas,NV 89109</li>
+                    <li>Phone Number:</li>
+                </ul>
+             </div>
+        </article>
+         <article class="beanchlist">
+        <article class="beanchlist">
+            <a href="./HTML/Valencia.html">
+            <img src="./images/Valencia.jpg" alt="Valencia"></a>
+            <div class="HedrBranch">
+            <h1>TheEmperor in Valencia</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                 Rerum sequi facere cum. Praesentium, error harum.</p>
+                 <ul>
+                    <li>TheEmperor in Valencia</li>
+                    <li>Valencia blvd,NV 89109</li>
+                    <li>Phone Number:</li>
+                </ul>
+             </div>
+        </article>
+            <a href="./HTML/Dubai.html">
+            <img src="./images/dubai.jpg" alt="dubai"></a>
+            <div class="HedrBranch">
+            <h1>TheEmperor in Dubai</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                 Rerum sequi facere cum. Praesentium, error harum.</p>
+                 <ul>
+                    <li>TheEmperor in Dubai</li>
+                    <li>Burj khalifa,NV 89109</li>
+                    <li>Phone Number:</li>
+             </div>
+        </article>
+        <article class="beanchlist">
+            <a href="./HTML/London.html">
+            <img src="./images/london.jpg" alt="london"></a>
+            <div class="HedrBranch">
+            <h1>TheEmperor in London</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                 Rerum sequi facere cum. Praesentium, error harum.</p>
+                 <ul>
+                     <li>TheEmperor in London</li>
+                     <li>East London Perth Rd, Westham United</li>
+                     <li>Phone Number:</li>
+                 </ul>
+             </div>
+        </article>
+    </section>

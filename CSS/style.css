@@ -6,6 +6,7 @@ body {
     background-size: cover;
     position: relative; 
     padding: 0%;
+    
 }
 
 #video {
@@ -15,10 +16,6 @@ body {
 
 }
 
-.navbar , .container-fluid { 
-    padding: 0% !important;
-    background-color:teal;
-}
 
 #welcome { 
     margin-top: 110px ;
@@ -35,59 +32,176 @@ body {
     font-family:'Times New Roman', Times, serif
 }
 
-.beanchlist { 
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid goldenrod;
-    background-color: rgba(255, 0, 0, 0.274);
-    
 
+
+@media screen and (max-width:425px) {
+     header{
+        width: auto;
+    }
+    #welcome { 
+        width: 100%;
+        margin-bottom:20px;
+    }
+    #welcome h1{ 
+        width:auto;}
+
+    #welcome p{ 
+        display: flex;
+        width: auto; } 
+
+    #video { 
+        display: flex;
+        justify-content: flex-end;
+        width: 1px;
+        height: 1px;
+    }
+  } 
+
+
+
+
+
+#BranchSection { 
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    border-radius: 25px;
+    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
+    background-color: rgba(128, 128, 128, 0.288);}
+
+
+
+.Branchlist img { 
+    width: 450px;
+    height: 350px;
+    border-radius: 50px;
+    transition: 1s; }
+
+ .Branchlist img:hover { 
+     width: 500px;
+     height: 400px; }   
+
+.navbar , .container-fluid { 
+    padding: 0% !important;
+    background-color:teal;
 }
-.beanchlist img { 
-    width: 350px;
-    height: 200px;
-    margin: 5px;
-    border-radius: 5%;
+
+#FestiveEvents { 
+    text-align: center;
+    margin-top: 30px;
+    font-family:'Times New Roman', Times, serif ;
+    border-radius: 25px;
+    border-top: 5px solid goldenrod;
+    border-bottom: 5px solid goldenrod;
+    background-color: rgba(128, 128, 128, 0.288);
+    width:40%;
+    margin: auto;
+    margin-top: 5%;
+    color: whitesmoke;
 }
-.HedrBranch h1 , p ,li, h2 { 
-    color: white;
+#bottomPage{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
 }
-.HedrBranch { 
+
+
+.secondtitle { 
+    width: 100vw;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    border-top: 5px solid goldenrod;
+    border-bottom: 5px solid goldenrod;
+    background-color: rgba(128, 128, 128, 0.288);
+    width:40%;
+    text-align: center;
+    color: whitesmoke;
+    
 }
-#secondtitle h2 { 
- text-align: center;
- margin-top: 30px;
- font-family:'Times New Roman', Times, serif ;
+.title { 
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 3%;
 }
-.photosevents {
+.title img {
     width: 150px;
     height: 100px;
-    display: flex;
-    justify-content: space-between;
-    
- }
- label ,h3 { color: white; 
-     
- }
+    padding-right: 5px;
+    border-radius: 50px;
+    transition: 1s;   }
 
- input { 
+    .title img:hover { 
+        width: 170px;
+        height: 120px; }
+
+
+label ,h3 { color: white; 
+    
+}
+#formOrder{
+    border-radius: 25px;
+    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
+    background-color: rgba(128, 128, 128, 0.288);
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form { 
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+input { 
     width: 120px;
     height: 30px;
     transition: width 2s, height 4s;
     color: white;
 }
 input:focus { width: 150px;
-            height: 20px;
-            border-radius: 5px; }
-
-
- @media screen and (max-width: 414px) {
-     #welcome h1,p { width: 10%;
-    height: 10%;}
-  }
-     
-
-
-
+    height: 20px;
+    border-radius: 5px; }
+    
+    
+    @media screen and (max-width: 414px) {
+        #welcome h1,p { width: 10%;
+            height: 10%;}
+        }
+        
+        
+        
+        
+        
+        /* .beanchlist { 
+            display: flex;
+            flex-direction: column;
+            border: 2px solid goldenrod;
+            background-color: rgba(128, 128, 128, 0.288);
+        }
+        
+        .beanchlist img { 
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            height: 200px;
+            margin: 5px;
+            border-radius: 5%;
+        }
+        .HedrBranch h1 , p ,li, h2 { 
+            color: white;
+        }
+        .HedrBranch { 
+            display: flex;
+            flex-direction: column; */
